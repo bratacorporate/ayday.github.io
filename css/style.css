@@ -117,7 +117,7 @@ html {
    color: var(--basic);
    background-color: var(--primary);
    position: absolute;
-   bottom: 0;
+   bottom: 80px;
    opacity: 0;
    animation: klik .5s ease-in-out forwards 4.5s;
 }
@@ -342,7 +342,7 @@ html {
 
 .show-arrow {
    position: absolute;
-   bottom: 2.5em;
+   bottom: 80px;
    left: 1em;
    transform: scale(0);
    opacity: 0;
@@ -522,7 +522,7 @@ i.show-arrow span {
    gap: 2em;
    place-content: center;
    place-items: center;
-   font-size: 1.2vmax;
+   font-size: 1.5vmax;
 }
 
 .desc .col:first-child img {
